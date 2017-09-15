@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <!--<img src="./assets/logo.png">-->
-    <Head></Head>
+    <Headd></Headd>
     <foot></foot>
   </div>
 </template>
 
 <script>
-  import Head from "../common/Head.vue"
+  import Headd from "../common/Head.vue"
   import Foot from "../common/foot.vue"
 
   export default {
     name: 'app',
     components: {
-      Head,
+      Headd,
       Foot
     }
   }
