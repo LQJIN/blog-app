@@ -8,11 +8,7 @@
 </template>
 
 <style scoped>
-  .nav { position: relative;
+  .head { position: relative;
     top: 0; left: 0; width: 100%;
     height: 1rem;  background: green;}
 </style>
-
-<script>
-
-</script>
