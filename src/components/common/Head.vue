@@ -1,7 +1,9 @@
 <template>
   <div class="head">
     <div class="nav">
-      <span>ooo</span>
+      <span class="glyphicon glyphicon-search">ooo</span>
+    </div>
+    <div class="title">
       <h2>BLOG</h2>
     </div>
   </div>
