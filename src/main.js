@@ -6,7 +6,9 @@ import router from './router'
 
 require('./assets/js/rem.js');
 /*引入第三方文件rem.js，在全局都起作用*/
-
+require('./assets/fonts/glyphicons/css/glyphicons.css');
+/* 有公共样式reset.css,并在App.vue中引入，作用域设为全局 */
+require ("./assets/css/reset.css");
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
