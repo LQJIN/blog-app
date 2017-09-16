@@ -13,8 +13,7 @@
 </script>
 
 <style scoped>
-  /* 有公共样式reset.css,并在App.vue中引入，作用域设为全局 */
-  @import "./assets/css/reset.css";
+
 /*#app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
