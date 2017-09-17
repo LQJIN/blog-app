@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="index">
     <!--<img src="./assets/logo.png">-->
     <Headd></Headd>
     <foot></foot>
@@ -11,7 +11,6 @@
   import Foot from "../common/foot.vue"
 
   export default {
-    name: 'app',
     components: {
       Headd,
       Foot
