@@ -1,7 +1,7 @@
 <template>
   <div class="head">
       <slot>
-        <span v-on="sideBar" class="glyphicon glyphicon-menu-hamburger"></span>
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
       </slot>
 
       <h2>BLOG</h2>
@@ -16,10 +16,6 @@
 
 <script>
   export default {
-    methods: {
-      sideBar: function () {
-        history.go(-1);
-      }
-    }
+
   }
 </script>

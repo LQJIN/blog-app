@@ -8,6 +8,9 @@
     <index-blog></index-blog>
     <index-blog></index-blog>
     <index-blog></index-blog>
+    <index-blog></index-blog>
+    <index-blog></index-blog>
+    <index-blog></index-blog>
     <foot></foot>
   </div>
 </template>
