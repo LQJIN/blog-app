@@ -4,8 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-require('./assets/js/rem.js');
 /*引入第三方文件rem.js，在全局都起作用*/
+require('./assets/js/rem.js');
+/*引入图标文件*/
 require('./assets/fonts/glyphicons/css/glyphicons.css');
 /* 有公共样式reset.css,作用域设为全局 */
 require ("./assets/css/reset.css");
