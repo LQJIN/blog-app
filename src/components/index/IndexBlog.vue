@@ -2,11 +2,11 @@
   <div class="index-blog">
     <router-link to="/blog">
       <div class="text">
-        <h5>Ignoring China's security issue not in ROK's interest:China Daily editional</h5>
+        <h5>Alibaba's Jack Ma shares insight into innovation,entrepreneurship</h5>
         <ul>
-          <li class="tag">OPINION</li>
-          <li class="date">September 14,2017</li>
-          <li class="comment"><span class="glyphicon glyphicon-comment"></span> 6</li>
+          <li class="tag">BUSINESS</li>
+          <li class="date">September 18,2017</li>
+          <li class="comment"><span class="glyphicon glyphicon-comment"></span> 5</li>
         </ul>
       </div>
       <div class="img">
