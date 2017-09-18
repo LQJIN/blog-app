@@ -1,20 +1,41 @@
 <template>
   <div class="foot fixed">
     <ul>
-      <li><router-link to="/"><span class="glyphicon glyphicon-list-alt"></span> Blog</router-link></li>
-      <li><router-link to="/"><span class="glyphicon glyphicon-user"></span> Me</router-link></li>
+      <li>
+        <router-link to="/">
+          <span class="glyphicon glyphicon-list-alt"></span>
+          <h5>BLOG</h5>
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/">
+          <span class="glyphicon glyphicon-user"></span>
+          <h5>ME</h5>
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>
 
 <style scoped>
-  li a{display: inline-block; width: 100%;height: 100%; color: #0d4473;}
-  .foot{position:fixed;width: 100%; bottom: 0;text-align: center;}
-  .fiexd{position: fixed;}
-  ul{display: flex;height: 0.8rem;line-height: 0.8rem;text-align: center;}
-  ul li{flex: 1;  background-color: #dee2e3;}
-  ul li:nth-child(1){background-color: #dee2e3;
-    border-right: 0.25px solid darkslategray }
+
+  .foot{position:fixed;width: 100%; bottom: 0; }
+
+  ul {display: flex; height: 0.7rem;line-height: 0.7rem;}
+  ul li {flex: 1;  background-color: #dee2e3; text-align: center; font-size: 0.3rem}
+  ul li:nth-child(1){border-right: 0.03rem solid #d9d9d9; }
+
+  .foot a{display: inline-block; width: 100%;height: 100%; color: #0d4473; text-align:center;}
+
+  .foot span{width: 0.45rem; height: 0.7rem; line-height: 0.7rem;  font-size: 0.36rem;}
+  .foot h5{ display: inline-block; text-align: center; position: relative;
+    bottom: 0.09rem; font-size: 0.2rem;}
+ /* .icon{font-size: 0.25rem; line-height: 0.7rem;}
+  .icon span::before{ width:0.7rem; height:0.7rem;}*/
+  /*ul span{vertical-align:50%;}*/
+  /*.foot a{display: inline-block; width: 100%;height: 100%; color: #0d4473; }
+  .foot span{ display: inline-block; font-size: 0.3rem; width: 0.3rem; height: 0.7rem; line-height: 0.7rem;
+    }*/
 </style>
 
 <!-- 可以看到foot.vue使用了<router-link>标签，该标签主要实现跳转链接功能，
