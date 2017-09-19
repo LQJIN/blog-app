@@ -1,7 +1,7 @@
 <template>
   <div class="blog-detail">
     <article>
-      <h3>Alibaba's Jack Ma shares insight into innovation,entrepreneurship.</h3>
+      <h2>Alibaba's Jack Ma shares insight into innovation,entrepreneurship.</h2>
       <h6>Updated: September 18,2017</h6>
       <img src="../../assets/img/p2.png" alt="">
       <p>Jack Ma, the founder of e-commercegiant Alibaba, has offered some of his insights into running business and the role of innovation and entrepreneurship.
@@ -19,8 +19,10 @@
 
 <style scoped>
   .blog-detail{margin-top: 0.92rem;}
-  .blog-detail article{display: block; padding: 0.2rem;
-    width: 6rem; word-wrap:break-word; }
+  .blog-detail h2{font-size: 0.24rem; font-weight: bold;}
+  .blog-detail h6{font-size: 0.14rem;}
+  .blog-detail p{font-size: 0.22rem; }
+  .blog-detail article{display: block; padding: 0.2rem; width: 6rem; word-wrap:break-word; }
 </style>
 
 <!--标签内英文换行，两个属性word-wrap:break-word;word-break:break-all;前提是加上宽度。-->

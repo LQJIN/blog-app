@@ -28,7 +28,7 @@
               <div class="date">2017-09-18 14:58</div>
             </div>
             <div class="comment-words">
-              <p>The business magnate also shared with people how Alibaba has grown into what it is today.</p>
+              <p>relationship need to look at today's .</p>
             </div>
           </div>
         </li>
@@ -37,10 +37,10 @@
           <div class="comments">
             <div class="name-date">
               <div class="name">user的名子</div>
-              <div class="date">2017-09-18 10:58</div>
+              <div class="date">2017-09-18 14:58</div>
             </div>
             <div class="comment-words">
-              <p>The business magnate also shared with people how Alibaba has grown into what it is today.</p>
+              <p>relationship need to look at today's .</p>
             </div>
           </div>
         </li>
@@ -50,12 +50,13 @@
 </template>
 <style scoped>
   .blog-comment{ margin: 0.2rem 0.2rem 0.7rem 0.2rem; }
-  .blog-comm-nav{ color: #5876a0; font-weight: bold;  border-bottom: 0.05rem solid #5876a0}
-  .user-comment ul li{ position: relative; padding: 0.2rem 0 0 0; display: inline-block;}
+  .blog-comm-nav{ color: #5876a0; font-weight: bold;  border-bottom: 0.05rem solid #5876a0; font-size: 0.2rem;}
+  .user-comment ul li{ position: relative; padding: 0.2rem 0 0 0; display: inline-block; font-size: 0.2rem;}
   .user-comment img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.2rem 0.2rem 0 0;
     text-align: center; border-radius: 50%;}
-  .comments {width:4.8rem; float: right; border-bottom: 0.02rem solid #5876a0}
-  .name-date{ color: #ababab;}
+  .comments {width:4.8rem; float: right; border-bottom: 0.02rem solid #5876a0; }
+  .comment-words{ clear: both; margin-bottom: 0.2rem;}
+  .name-date{ color: #ababab; margin: 0 0 0.3rem 0;}
   .comments .name{ float: left;}
   .comments .date{ float: right;}
 </style>
