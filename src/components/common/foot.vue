@@ -8,7 +8,7 @@
         </router-link>
       </li>
       <li>
-        <router-link to="/">
+        <router-link to="/me">
           <span class="glyphicon glyphicon-user"></span>
           <h5>ME</h5>
         </router-link>
