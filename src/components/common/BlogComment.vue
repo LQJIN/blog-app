@@ -50,12 +50,15 @@
 </template>
 <style scoped>
   .blog-comment{ margin: 0.2rem 0.2rem 0.7rem 0.2rem; }
-  .blog-comm-nav{ color: #5876a0; font-weight: bold;
-  border-bottom: 0.05rem solid #5876a0}
+  .blog-comm-nav{ color: #5876a0; font-weight: bold;  border-bottom: 0.05rem solid #5876a0}
   .user-comment ul li{ position: relative; padding: 0.2rem 0 0 0; display: inline-block;}
   .user-comment img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.2rem 0.2rem 0 0;
     text-align: center; border-radius: 50%;}
   .comments {width:4.8rem; float: right; border-bottom: 0.02rem solid #5876a0}
+  .name-date{ color: #ababab;}
   .comments .name{ float: left;}
   .comments .date{ float: right;}
 </style>
+<!--评论的头像和内容定位不起作用，后来给li加上了display: inline-block; img相对于li的定位就好用了。
+而且评论区高度随着评论内容的多少而自动变化。
+-->
