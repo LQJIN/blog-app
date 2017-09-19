@@ -23,6 +23,7 @@
   .blog-detail h6{font-size: 0.14rem;}
   .blog-detail p{font-size: 0.22rem; }
   .blog-detail article{display: block; padding: 0.2rem; width: 6rem; word-wrap:break-word; }
+  .blog-detail img{ width: 5.6rem; height: 2.5rem; margin: 0.2rem;}
 </style>
 
 <!--标签内英文换行，两个属性word-wrap:break-word;word-break:break-all;前提是加上宽度。-->
