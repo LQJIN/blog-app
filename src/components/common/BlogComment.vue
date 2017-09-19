@@ -52,10 +52,10 @@
   .blog-comment{ margin: 0.2rem 0.2rem 0.7rem 0.2rem; }
   .blog-comm-nav{ color: #5876a0; font-weight: bold;  border-bottom: 0.05rem solid #5876a0; font-size: 0.2rem;}
   .user-comment ul li{ position: relative; padding: 0.2rem 0 0 0; display: inline-block; font-size: 0.2rem;}
-  .user-comment img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.2rem 0.2rem 0 0;
+  .user-comment img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.1rem 0.2rem 0 0;
     text-align: center; border-radius: 50%;}
   .comments {width:4.8rem; float: right; border-bottom: 0.02rem solid #5876a0; }
-  .comment-words{ clear: both; margin-bottom: 0.2rem;}
+  .comment-words{ clear: both; margin-bottom: 0.4rem;}
   .name-date{ color: #ababab; margin: 0 0 0.3rem 0;}
   .comments .name{ float: left;}
   .comments .date{ float: right;}

@@ -68,11 +68,11 @@
   .content-head span{ width: 1rem; height: 1rem; line-height: 1rem; text-align:center; font-size: 0.5rem; color: #0d4473;}
   .content-head h4 { flex: 1; text-align: center; text-indent: -1rem; line-height: 1rem; font-size: 0.5rem; color: #0d4473;}
   .comment-li ul li{ position: relative; padding: 0.2rem 0 0 0; display: inline-block; font-size: 0.2rem;}
-  .comment-li img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.2rem 0.2rem 0 0;
+  .comment-li img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.1rem 0.2rem 0 0;
     text-align: center; border-radius: 50%;}
 
   .comments {width:4.8rem; float: right; border-bottom: 0.02rem solid #5876a0; }
-  .comment-words{ clear: both; margin-bottom: 0.2rem;}
+  .comment-words{ clear: both; margin-bottom: 0.4rem;}
   .name-date{ color: #ababab; margin: 0 0 0.3rem 0;}
   .comments .name{ float: left;}
   .comments .date{ float: right;}
