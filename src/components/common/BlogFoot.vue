@@ -10,7 +10,7 @@
         </router-link>
       </li>
       <li>
-        <router-link to="/">
+        <router-link to="/comment">
           <h5>5</h5>
           <span class="glyphicon glyphicon-comment"></span>
         </router-link>
