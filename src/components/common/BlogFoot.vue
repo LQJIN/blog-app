@@ -28,9 +28,9 @@
   .blog-foot{position:fixed; width: 100%; bottom: 0; }
 
   ul {display: flex; height: 0.7rem;line-height: 0.7rem;}
-  ul li {flex: 1;  background-color: #dee2e3; text-align: center; font-size: 0.3rem}
+  ul li {flex: 1;  background-color: #ffffff; text-align: center; font-size: 0.3rem;}
 
-  .blog-foot a{display: inline-block; width: 100%;height: 100%; color: #0d4473; text-align:center;}
+  .blog-foot a{display: inline-block; width: 100%;height: 100%; color: #1c4d9c; text-align:center;}
 
   .blog-foot span{width: 0.45rem; height: 0.7rem; line-height: 0.7rem;  font-size: 0.36rem;}
   .blog-foot h5{ display: inline-block; text-align: center; position: relative;
