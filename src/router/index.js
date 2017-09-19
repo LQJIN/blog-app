@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '@/components/index/index.vue'
 import Blog from '@/components/index/Blog.vue'
 import BlogCommentAdd from '@/components/common/BlogCommentAdd.vue'
+import Me from '@/components/index/Me.vue'
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/comment',
       name: 'BlogCommentAdd',
       component: BlogCommentAdd
+    },
+    {
+      path: '/me',
+      name: 'Me',
+      component: Me
     }
   ]
 })
