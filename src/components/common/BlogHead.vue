@@ -10,7 +10,7 @@
 
 <style scoped>
   .blog-head { height: 0.9rem; position: fixed; top: 0; width: 100%; background: #ffffff; }
-  .blog-head { border-bottom: 0.02rem solid #a2b7b8}
+  .blog-head { border-bottom: 0.02rem solid #a2b7b8; z-index: 1;}
 
   .blog-head ul li { display: inline-block; width: 0.8rem; height: 0.8rem; line-height: 0.8rem;
     text-align: center; font-size: 0.5rem; color: #0d4473; padding-top: 0.1rem;}

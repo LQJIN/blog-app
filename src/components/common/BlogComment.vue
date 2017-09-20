@@ -44,12 +44,51 @@
             </div>
           </div>
         </li>
+        <li>
+          <img src="../../assets/img/p6.png" alt="">
+          <div class="comments">
+            <div class="name-date">
+              <div class="name">user的名子</div>
+              <div class="date">2017-09-18 15:58</div>
+            </div>
+            <div class="comment-words">
+              <p>The business magnate also shared with people how Alibaba has grown into what it is today.
+                The business magnate also shared with people how Alibaba has grown into what it is today.
+                The business magnate also shared with people how Alibaba has grown into what it is today.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="../../assets/img/p4.png" alt="">
+          <div class="comments">
+            <div class="name-date">
+              <div class="name">user的名子</div>
+              <div class="date">2017-09-18 14:58</div>
+            </div>
+            <div class="comment-words">
+              <p>relationship need to look at today's .</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="../../assets/img/p7.png" alt="">
+          <div class="comments">
+            <div class="name-date">
+              <div class="name">user的名子</div>
+              <div class="date">2017-09-18 14:58</div>
+            </div>
+            <div class="comment-words">
+              <p>relationship need to look at today's .</p>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
 </template>
 <style scoped>
-  .blog-comment{ margin: 0.2rem 0.2rem 0.7rem 0.2rem; }
+  .blog-comment{ margin: 0.2rem 0.2rem 0.7rem 0.2rem;}
   .blog-comm-nav{ color: #5876a0; font-weight: bold;  border-bottom: 0.05rem solid #5876a0; font-size: 0.2rem;}
   .user-comment ul li{ position: relative; padding: 0.2rem 0 0 0; display: inline-block; font-size: 0.2rem;}
   .user-comment img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.1rem 0.2rem 0 0;
