@@ -1,15 +1,7 @@
 <template>
   <div class="index">
     <!--<img src="./assets/logo.png">-->
-    <Headd></Headd>
-    <index-blog></index-blog>
-    <index-blog></index-blog>
-    <index-blog></index-blog>
-    <index-blog></index-blog>
-    <index-blog></index-blog>
-    <index-blog></index-blog>
-    <index-blog></index-blog>
-    <index-blog></index-blog>
+    <Headd ></Headd>
     <index-blog></index-blog>
     <foot></foot>
   </div>
@@ -24,7 +16,9 @@
   import Foot from "../common/foot.vue"
   import IndexBlog from "./IndexBlog.vue"
 
+
   export default {
+
     components: {
       Headd,
       Foot,
