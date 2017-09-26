@@ -14,11 +14,21 @@
               <input type="password" name="pass" placeholder="Password"/>
             </div>
           <div class="keep-sign">
-            <span @click="changeClass(isEmpty,isCheck)" v-bind:class="{'icon-check-empty': isEmpty, 'icon-check': isCheck}"></span>
-            <input type="password" name="pass" placeholder="Password"/>
+            <span class="icon-lock"></span>
+            <p>Keep me signed in</p>
           </div>
-         <button type="submit">Continue</button>
+         <input class="button" type="submit" value="Continue"/>
         </form>
+      </div>
+      <div class="forget-password">
+        <a href="index.vue">Forget Password?</a>
+      </div>
+      <div class="other-account">
+        <p>Sign in with other accounts</p>
+        <ul>
+          <li><img src="" alt=""><p>wechat</p></li>
+          <li><img src="" alt=""><p>weibo</p></li>
+        </ul>
       </div>
     </div>
     <foot></foot>
@@ -42,10 +52,15 @@
     -webkit-linear-gradient(#1649a9, #dadada); margin: 0 0 0.7rem 0;}
   .sign-content span{ width: 0.6rem; height:0.6rem; line-height: 0.6rem; color: #ffffff; font-size: 0.4rem;}
   .sign-content input{ width: 5rem;height: 0.6rem; font-size: 0.25rem; color: #ffffff;
-    line-height: 0.6rem; border: none; background: transparent; outline: none; margin-left: 0.1rem;}
+    line-height: 0.6rem; border: none; background: transparent; outline: none; }
   .input-button{text-align: left;}
   .input-button div{ border-bottom: 0.01rem solid #ffffff; padding: 0.2rem 0;}
   .pass input{margin-left: 0.2rem;}
+  .sign-content .button{background: #89a1d1; color: #ffffff;  width: 5.8rem;}
+  .sign-content .keep-sign{border: none; color:#ffffff; font-size: 0.25rem;}
+  .sign-content .keep-sign p{display: block; width: 5rem; float: right;}
+  .forget-password{text-align: center; border: none; height: 1rem; line-height: 1rem; font-size: 0.25rem;}
+  .forget-password a{ color: #1c4d9c; text-decoration-line: underline;}
 </style>
 
 <script>
@@ -53,23 +68,15 @@
   import Foot from '../common/foot.vue'
 
   export default {
-    data(){
-      var isEmpty,isCheck;
-    },
-    components:{
+
+    components: {
       MeHead,
       Foot
     },
-    methods:{
-      changeClass:function (isEmpty,isCheck) {
-        if(isEmpty != 1){
-          return(isEmpty == true,
-          isCheck == false);
-        }else{
-          return(isEmpty == false,
-          isCheck == true);
-        }
+   /* methods: {
+      changeClass: function () {
+          this.d = 'false';
       }
-    }
+    }*/
   }
 </script>
