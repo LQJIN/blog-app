@@ -25,17 +25,13 @@
   ul li {flex: 1;  background-color: #dee2e3; text-align: center; font-size: 0.3rem}
   ul li:nth-child(1){border-right: 0.03rem solid #d9d9d9; }
 
-  .foot a{display: inline-block; width: 100%;height: 100%; color: #0d4473; text-align:center;}
+  .foot a{display: inline-block; width: 100%;height: 100%; color: #989898; text-align:center;}
 
   .foot span{width: 0.45rem; height: 0.7rem; line-height: 0.7rem;  font-size: 0.36rem;}
   .foot h5{ display: inline-block; text-align: center; position: relative;
     bottom: 0.09rem; font-size: 0.2rem;}
- /* .icon{font-size: 0.25rem; line-height: 0.7rem;}
-  .icon span::before{ width:0.7rem; height:0.7rem;}*/
-  /*ul span{vertical-align:50%;}*/
-  /*.foot a{display: inline-block; width: 100%;height: 100%; color: #0d4473; }
-  .foot span{ display: inline-block; font-size: 0.3rem; width: 0.3rem; height: 0.7rem; line-height: 0.7rem;
-    }*/
+  .isBlog li:first-child a{ color: #0d4473;}
+  .isMe li:last-child a{color: #0d4473;}
 </style>
 
 <!-- 可以看到foot.vue使用了<router-link>标签，该标签主要实现跳转链接功能，
