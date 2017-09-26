@@ -3,7 +3,7 @@
     <!--<img src="./assets/logo.png">-->
     <Headd ></Headd>
     <index-blog></index-blog>
-    <foot></foot>
+    <foot v-bind:class="{'isBlog':isNowPage}"></foot>
   </div>
 </template>
 
@@ -23,6 +23,11 @@
       Headd,
       Foot,
       IndexBlog
+    },
+    data(){
+      return{
+        isNowPage: true
+      }
     }
   }
 </script>
