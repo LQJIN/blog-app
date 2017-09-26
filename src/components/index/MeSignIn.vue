@@ -48,7 +48,7 @@
   .sign-in-out button{ width: 1.3rem; height: 0.6rem; line-height: 0.6rem; margin: 0.2rem 0.1rem 0.2rem 0;
     background: #2ac395; font-size: 0.25rem; color: #ffffff; border: none;}
 
-  .sign-content{padding: 0 0.3rem; width:5.8rem;  height:9rem; text-align: center; background:
+  .sign-content{padding: 0 0.3rem; width:5.8rem;  text-align: center; background:
     -webkit-linear-gradient(#1649a9, #dadada); margin: 0 0 0.7rem 0;}
   .sign-content span{ width: 0.6rem; height:0.6rem; line-height: 0.6rem; color: #ffffff; font-size: 0.4rem;}
   .sign-content input{ width: 5rem;height: 0.6rem; font-size: 0.25rem; color: #ffffff;
