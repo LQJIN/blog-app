@@ -2,7 +2,7 @@
   <div class="me">
     <me-head></me-head>
     <me-content></me-content>
-    <foot></foot>
+    <foot v-bind:class="{'isMe':isNowPage}"></foot>
   </div>
 </template>
 
@@ -17,6 +17,11 @@
       MeHead,
       MeContent,
       Foot
+    },
+    data(){
+      return{
+        isNowPage: true
+      }
     }
   }
 </script>
