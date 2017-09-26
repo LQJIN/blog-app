@@ -43,7 +43,7 @@
 
   .me-sign-in{ margin-top: 1rem;}
   .sign-in-out{ height: 1rem; text-align: center; display: flex; background: #002a76; color: #ffffff;}
-  .sign-in-out h4{  flex: 1;  text-indent: 1.4rem; line-height: 1rem; font-size: 0.35rem;}
+  .sign-in-out h4{  flex: 1;  text-indent: 1.6rem; line-height: 1rem; font-size: 0.35rem;}
   .sign-in-out button{ width: 1.3rem; height: 0.6rem; line-height: 0.6rem; margin: 0.2rem 0.1rem 0.2rem 0;
     background: #2ac395; font-size: 0.25rem; color: #ffffff; border: none;}
 
