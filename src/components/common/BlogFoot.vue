@@ -2,12 +2,12 @@
   <div class="blog-foot">
     <ul>
       <li>
-        <router-link to="/">
+        <a v-on:click="msgAdd()">
           <div>
-            <h5>73</h5>
+            <h5>{{msg}}</h5>
             <span class="glyphicon glyphicon-thumbs-up"></span>
           </div>
-        </router-link>
+        </a>
       </li>
       <li>
         <router-link to="/comment">
@@ -35,6 +35,22 @@
   .blog-foot span{width: 0.45rem; height: 0.7rem; line-height: 0.7rem;  font-size: 0.36rem;}
   .blog-foot h5{ display: inline-block; text-align: center; position: relative;
     bottom: 0.09rem; font-size: 0.2rem;}
+  /*解决了foot.vue和BlogFoot.vue中图标和文字不能对齐的问题。
+      文字在<h5>标签中，给h5设置为inline-block行块，然后通过定位控制了文字与图标的位置。*/
 </style>
-<!--解决了foot.vue和BlogFoot.vue中图标和文字不能对齐的问题。
-文字在<h5>标签中，给h5设置为inline-block行块，然后通过定位控制了文字与图标的位置。-->
+
+<script>
+  export default {
+    data(){
+      let msg = 0;
+      return {
+        msg
+      }
+    },
+    methods:{
+      msgAdd(){
+        this.msg++;
+      }
+    }
+  }
+</script>
