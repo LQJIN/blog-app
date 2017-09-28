@@ -1,9 +1,9 @@
 <template>
   <div class="blog-head">
     <ul>
-      <li v-on:click="toIndex"><span class="glyphicon glyphicon-chevron-left"></span></li>
-      <li><span class="glyphicon glyphicon-zoom-in"></span></li>
-      <li><span class="glyphicon glyphicon-star-empty"></span></li>
+      <li v-on:click="toIndex"><span class="icon-chevron-left"></span></li>
+      <li><span class="icon-zoom-in"></span></li>
+      <li><span class="icon-star-empty"></span></li>
     </ul>
   </div>
 </template>
