@@ -2,7 +2,9 @@
   <div class="me-head">
     <h2>Me</h2>
     <slot>
-      <span v-on:click="toIndex" class="glyphicon glyphicon-cog"></span>
+      <router-link to="/settings">
+        <span class="glyphicon glyphicon-cog"></span>
+      </router-link>
     </slot>
   </div>
 </template>
@@ -14,12 +16,3 @@
   .me-head h2 { flex: 1; text-align: center; text-indent: 1.2rem; line-height: 1rem; font-size: 0.5rem;}
 </style>
 
-<script>
-  export default {
-    methods:{
-      toIndex:function(){
-        history.back();
-      }
-    }
-  }
-</script>
