@@ -3,7 +3,7 @@
     <ul>
       <li v-on:click="toIndex"><span class="icon-chevron-left"></span></li>
       <li><span class="icon-zoom-in"></span></li>
-      <li><span class="icon-star-empty"></span></li>
+      <li><span v-on:click="toggle()" v-bind:class="{'icon-star-empty': isEmpty, 'icon-star': !isEmpty}"></span></li>
     </ul>
   </div>
 </template>
@@ -21,9 +21,17 @@
 
 <script>
   export default {
+    data(){
+      return{
+        isEmpty: true,
+      }
+    },
     methods:{
       toIndex:function(){
         history.back();
+      },
+      toggle:function () {
+        this.isEmpty = !this.isEmpty;
       }
     }
   }
