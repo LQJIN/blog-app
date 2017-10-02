@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 /*引入第三方文件rem.js，在全局都起作用*/
@@ -17,10 +18,13 @@ require ("./assets/css/reset.css");
 
 Vue.config.productionTip = false;
 
+Vue.use(MintUI);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  MintUI,
   template: '<App/>',
   components: { App }
 });
