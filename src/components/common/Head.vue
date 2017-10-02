@@ -1,7 +1,7 @@
 <template>
   <div class="head" id="main">
       <slot>
-        <span class="glyphicon glyphicon-menu-hamburger js-slideout-toggle"></span>
+        <span class="icon-reorder"></span>
       </slot>
 
       <h2>BLOG</h2>
