@@ -103,7 +103,7 @@
   .content-head { display: flex; height: 0.9rem; background: #ffffff; position: fixed; top: 0; width: 100%;
     border-bottom: 0.02rem solid #d7d7d7;  z-index: 1;}
   .content-head span{ width: 0.9rem; height: 0.86rem; line-height: 0.86rem; text-align:center; font-size: 0.5rem; color: #0d4473; padding-top: 0.04rem;}
-  .content-head h4 { flex: 1; text-align: center; text-indent: -0.6rem; font-size: 0.5rem; color: #0d4473; padding-top: 0.04rem;}
+  .content-head h4 { flex: 1; height: 0.86rem; line-height: 0.86rem; text-align: center; text-indent: -0.6rem; font-size: 0.35rem; color: #0d4473; padding-top: 0.04rem;}
   .comment-li {margin: 1.02rem 0.2rem 1.2rem 0.2rem; }
   .comment-li ul li{ position: relative; padding: 0.2rem 0 0 0; display: inline-block; font-size: 0.2rem;}
   .comment-li img{ left: 0; top: 0; width: 1rem; height: 1rem; float: left; margin: 0.1rem 0.2rem 0 0;
