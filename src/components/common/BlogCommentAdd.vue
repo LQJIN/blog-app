@@ -1,99 +1,99 @@
 <template>
   <div class="blog-comment-add">
-              <div class="comment-content">
-                <div class="content-head">
-                  <span v-on:click="toBlog" class="icon-remove"></span>
-                  <h4>COMMENTS</h4>
-                </div>
-                <div class="comment-li">
-                  <ul>
-                    <li>
-                      <img src="../../assets/img/p6.png" alt="">
-                      <div class="comments">
-                        <div class="name-date">
-                          <div class="name">user的名子</div>
-                          <div class="date">2017-09-18 15:58</div>
-                        </div>
-                        <div class="comment-words">
-                          <p>The business magnate also shared with people how Alibaba has grown into what it is today.
-                            The business magnate also shared with people how Alibaba has grown into what it is today.
-                            The business magnate also shared with people how Alibaba has grown into what it is today.
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="../../assets/img/p4.png" alt="">
-                      <div class="comments">
-                        <div class="name-date">
-                          <div class="name">user的名子</div>
-                          <div class="date">2017-09-18 14:58</div>
-                        </div>
-                        <div class="comment-words">
-                          <p>relationship need to look at today's .</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="../../assets/img/p7.png" alt="">
-                      <div class="comments">
-                        <div class="name-date">
-                          <div class="name">user的名子</div>
-                          <div class="date">2017-09-18 14:58</div>
-                        </div>
-                        <div class="comment-words">
-                          <p>relationship need to look at today's .</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="../../assets/img/p6.png" alt="">
-                      <div class="comments">
-                        <div class="name-date">
-                          <div class="name">user的名子</div>
-                          <div class="date">2017-09-18 15:58</div>
-                        </div>
-                        <div class="comment-words">
-                          <p>The business magnate also shared with people how Alibaba has grown into what it is today.
-                            The business magnate also shared with people how Alibaba has grown into what it is today.
-                            The business magnate also shared with people how Alibaba has grown into what it is today.
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="../../assets/img/p4.png" alt="">
-                      <div class="comments">
-                        <div class="name-date">
-                          <div class="name">user的名子</div>
-                          <div class="date">2017-09-18 14:58</div>
-                        </div>
-                        <div class="comment-words">
-                          <p>relationship need to look at today's .</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="../../assets/img/p7.png" alt="">
-                      <div class="comments">
-                        <div class="name-date">
-                          <div class="name">user的名子</div>
-                          <div class="date">2017-09-18 14:58</div>
-                        </div>
-                        <div class="comment-words">
-                          <p>relationship need to look at today's .</p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="comment-sent">
-                  <form action="" method="get">
-                    <input type="text" title="comment" placeholder="make comments"/>
-                    <button type="submit">Send</button>
-                  </form>
-                </div>
+    <div class="comment-content">
+      <div class="content-head">
+        <span v-on:click="toBlog" class="icon-remove"></span>
+        <h4>COMMENTS</h4>
+      </div>
+      <div class="comment-li">
+        <ul>
+          <li>
+            <img src="../../assets/img/p6.png" alt="">
+            <div class="comments">
+              <div class="name-date">
+                <div class="name">user的名子</div>
+                <div class="date">2017-09-18 15:58</div>
               </div>
+              <div class="comment-words">
+                <p>The business magnate also shared with people how Alibaba has grown into what it is today.
+                  The business magnate also shared with people how Alibaba has grown into what it is today.
+                  The business magnate also shared with people how Alibaba has grown into what it is today.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/img/p4.png" alt="">
+            <div class="comments">
+              <div class="name-date">
+                <div class="name">user的名子</div>
+                <div class="date">2017-09-18 14:58</div>
+              </div>
+              <div class="comment-words">
+                <p>relationship need to look at today's .</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/img/p7.png" alt="">
+            <div class="comments">
+              <div class="name-date">
+                <div class="name">user的名子</div>
+                <div class="date">2017-09-18 14:58</div>
+              </div>
+              <div class="comment-words">
+                <p>relationship need to look at today's .</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/img/p6.png" alt="">
+            <div class="comments">
+              <div class="name-date">
+                <div class="name">user的名子</div>
+                <div class="date">2017-09-18 15:58</div>
+              </div>
+              <div class="comment-words">
+                <p>The business magnate also shared with people how Alibaba has grown into what it is today.
+                  The business magnate also shared with people how Alibaba has grown into what it is today.
+                  The business magnate also shared with people how Alibaba has grown into what it is today.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/img/p4.png" alt="">
+            <div class="comments">
+              <div class="name-date">
+                <div class="name">user的名子</div>
+                <div class="date">2017-09-18 14:58</div>
+              </div>
+              <div class="comment-words">
+                <p>relationship need to look at today's .</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/img/p7.png" alt="">
+            <div class="comments">
+              <div class="name-date">
+                <div class="name">user的名子</div>
+                <div class="date">2017-09-18 14:58</div>
+              </div>
+              <div class="comment-words">
+                <p>relationship need to look at today's .</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="comment-sent">
+        <form action="" method="get">
+          <input type="text" title="comment" placeholder="make comments"/>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
     <div class="content-bg"></div>
   </div>
 </template>
