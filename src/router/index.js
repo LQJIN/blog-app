@@ -26,14 +26,14 @@ export default new Router({
       component: BlogCommentAdd
     },
     {
-      path: '/me',
-      name: 'Me',
-      component: Me
-    },
-    {
       path: '/settings',
       name: 'Settings',
       component: Settings
+    },
+    {
+      path: '/me',
+      name: 'Me',
+      component: Me
     }
   ]
 })
