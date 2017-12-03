@@ -32,12 +32,22 @@
       }
     },
     mounted:function () {
-
+      this.loadData();
+      var _this = this;
+      $(window).scroll(function(){
+        var windowHeight = $(this).height();
+        var scrollTop = $(this).scrollTop();
+        var height = $(document).height();
+        if(windowHeight + scrollTop >= height){
+          _this.show = true;
+          _this.loadData();
+        };
+      });
     },
     methods:{
       loadData(){
-        var lenght = this.newsList.length;
-        Axios.get().then((res)=>{
+        var length = this.newsList.length;
+        Axios.get("http://localhost:3000/get_blog").then((res)=>{
           this.newsList = this.newsList.concat(res.data.subjects);
           //concat()函数作用是连接数组。
           this.show = false;
