@@ -28,6 +28,6 @@ new Vue({
   template: '<App/>',
   components: { App }
 });
-/*main.js是整个项目的主js文件。
+/*main.js是整个项目的主js文件，入口文件
 当npm run dev的时候，默认会把main.js和index.html关联，
 webpack会给打包。*/
