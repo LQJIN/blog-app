@@ -34,6 +34,11 @@ export default new Router({
       path: '/me',
       name: 'Me',
       component: Me
+    },
+    {/*没有使用的路由*/
+      path: '/aaa',
+      name: 'Me',
+      component: Me
     }
   ]
 })
